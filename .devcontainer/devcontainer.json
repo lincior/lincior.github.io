@@ -13,7 +13,7 @@
 
 	// Uncomment the next line to run commands after the container is created.
 	"postCreateCommand": "bundle install",
-	"postStartCommand": "bundle exec jekyll serve"
+	"postStartCommand": "bundle exec jekyll serve --incremental"
 
 	// Configure tool-specific properties.
 	// "customizations": {},
