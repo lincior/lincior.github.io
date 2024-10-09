@@ -12,7 +12,7 @@
 	// "forwardPorts": [],
 
 	// Uncomment the next line to run commands after the container is created.
-	"postCreateCommand": "bundle install",
+	"postCreateCommand": "bundle install --gemfile=.devcontainer/Gemfile",
 	"postStartCommand": "bundle exec jekyll serve --incremental"
 
 	// Configure tool-specific properties.
