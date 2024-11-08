@@ -1,6 +1,8 @@
 # Bio
 Practical problem solver in the fields of Computer Vision, Machine and Deep Learning. Particularly interested in Neuromorphic technologies and Astronomy. Academic background in Telecommunications and Electrical Engineering (ICT). Experienced in data collection, management and visualisation. Life-long learner.
 
+Download my [resume](assets/resume.pdf).
+
 # Contacts
 - [LinkedIn](https://www.linkedin.com/in/lincior)
 - [Email](mailto:riccardo.lincetto@gmail.com)
