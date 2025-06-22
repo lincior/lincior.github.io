@@ -1,5 +1,9 @@
 # Bio
-Practical problem solver in the fields of Computer Vision, Machine and Deep Learning. Particularly interested in Neuromorphic technologies and Astronomy. Academic background in Telecommunications and Electrical Engineering (ICT). Experienced in data collection, management and visualisation. Life-long learner.
+Expert in computer vision (classical, neuromorphic), robotics, deep
+learning, LLM agents.
+Motivated by challenging problems, committed to continuous learning,
+highly organized. Experienced in both team and independent work.
+Available as contractor or consultant.
 
 Download my [resume](assets/resume.pdf).
 
