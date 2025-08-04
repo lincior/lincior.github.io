@@ -20,4 +20,293 @@
 body {
     background-color: var(--main-background-color);
     color: var(--main-text-color);
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+/* Hero Section */
+.hero {
+    text-align: center;
+    padding: 80px 20px 60px;
+    background: linear-gradient(135deg, rgba(102, 126, 234, 0.1) 0%, rgba(118, 75, 162, 0.1) 100%);
+    border-radius: 20px;
+    margin: 20px 0 40px;
+}
+
+.hero-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.hero-title {
+    font-size: 3.5rem;
+    font-weight: 700;
+    margin: 0 0 10px 0;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.hero-subtitle {
+    font-size: 1.5rem;
+    font-weight: 400;
+    margin: 0 0 20px 0;
+    opacity: 0.8;
+}
+
+.hero-description {
+    font-size: 1.1rem;
+    margin: 0 0 30px 0;
+    opacity: 0.7;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.hero-cta {
+    margin: 30px 0;
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.cta-button {
+    padding: 12px 30px;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: 600;
+    transition: all 0.3s ease;
+    display: inline-block;
+}
+
+.cta-button.primary {
+    background: #667eea;
+    color: white;
+}
+
+.cta-button.primary:hover {
+    background: #5a67d8;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 15px rgba(102, 126, 234, 0.3);
+}
+
+.cta-button.secondary {
+    background: transparent;
+    color: var(--main-text-color);
+    border: 2px solid #667eea;
+}
+
+.cta-button.secondary:hover {
+    background: #667eea;
+    color: white;
+    transform: translateY(-2px);
+}
+
+.hero-status {
+    margin-top: 20px;
+    font-size: 0.9rem;
+    opacity: 0.7;
+}
+
+.status-indicator {
+    margin-right: 8px;
+}
+
+/* Quick Links Section */
+.quick-links {
+    margin: 40px 0;
+    text-align: center;
+}
+
+.links-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.quick-link {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background: rgba(102, 126, 234, 0.1);
+    border-radius: 12px;
+    text-decoration: none;
+    color: var(--main-text-color);
+    transition: all 0.3s ease;
+    min-width: 120px;
+}
+
+.quick-link:hover {
+    background: rgba(102, 126, 234, 0.2);
+    transform: translateY(-3px);
+    box-shadow: 0 4px 15px rgba(102, 126, 234, 0.2);
+}
+
+.link-icon {
+    font-size: 2rem;
+    margin-bottom: 8px;
+}
+
+.link-text {
+    font-weight: 600;
+    font-size: 0.9rem;
+}
+
+/* Section Headers */
+.section-header {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.section-header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+    color: var(--main-text-color);
+}
+
+.section-subtitle {
+    font-size: 1.1rem;
+    opacity: 0.7;
+    margin: 0;
+}
+
+/* Experience and Education Sections */
+.experience, .education {
+    margin: 60px 0;
+    padding: 0 20px;
+}
+
+.job, .degree {
+    background: rgba(102, 126, 234, 0.05);
+    border-left: 4px solid #667eea;
+    padding: 25px;
+    margin: 25px 0;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+}
+
+.job:hover, .degree:hover {
+    background: rgba(102, 126, 234, 0.1);
+    transform: translateX(5px);
+}
+
+.job h2, .degree h2 {
+    color: #667eea;
+    margin-top: 0;
+    font-size: 1.3rem;
+}
+
+.job-details, .degree-details {
+    font-size: 0.9rem;
+    opacity: 0.7;
+    margin: 5px 0 15px 0;
+    font-weight: 600;
+}
+
+/* Mobile Responsiveness */
+@media (max-width: 768px) {
+    .hero {
+        padding: 60px 15px 40px;
+        margin: 10px 0 30px;
+    }
+    
+    .hero-title {
+        font-size: 2.5rem;
+    }
+    
+    .hero-subtitle {
+        font-size: 1.2rem;
+    }
+    
+    .hero-cta {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .cta-button {
+        width: 200px;
+        text-align: center;
+    }
+    
+    .links-container {
+        gap: 15px;
+    }
+    
+    .quick-link {
+        min-width: 100px;
+        padding: 15px;
+    }
+    
+    .section-header h1 {
+        font-size: 2rem;
+    }
+    
+    .experience, .education {
+        padding: 0 15px;
+    }
+}
+
+/* Floating Resume Download Button */
+.resume-download-btn {
+    position: fixed;
+    top: 50%;
+    right: 20px;
+    transform: translateY(-50%);
+    z-index: 1000;
+}
+
+.download-btn {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px 10px;
+    background: #667eea;
+    color: white;
+    text-decoration: none;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease;
+    font-size: 12px;
+    font-weight: 600;
+    text-align: center;
+    min-width: 80px;
+}
+
+.download-btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3);
+    text-decoration: none;
+    color: white;
+}
+
+.download-icon {
+    font-size: 24px;
+    margin-bottom: 5px;
+}
+
+/* Mobile responsiveness */
+@media (max-width: 768px) {
+    .resume-download-btn {
+        right: 10px;
+        top: auto;
+        bottom: 20px;
+        transform: none;
+    }
+    
+    .download-btn {
+        padding: 12px 8px;
+        font-size: 11px;
+        min-width: 70px;
+    }
+    
+    .download-icon {
+        font-size: 20px;
+    }
 }
