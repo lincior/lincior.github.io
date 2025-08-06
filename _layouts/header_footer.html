@@ -1,0 +1,23 @@
+---
+layout: default
+---
+<header class="site-header">
+  <div class="container">
+    <h1 class="site-title">
+      <a href="{{ site.baseurl }}/">Riccardo Lincetto</a>
+    </h1>
+    <nav class="site-nav">
+      <ul>
+        <li><a href="{{ site.baseurl }}/assets/resume.pdf" target="_blank" rel="noopener">Resume</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+{{ content }}
+
+<footer class="site-footer">
+  <div class="container">
+    <p>&copy; {{ site.time | date: '%Y' }} Riccardo Lincetto. All rights reserved.</p>
+  </div>
+</footer>
