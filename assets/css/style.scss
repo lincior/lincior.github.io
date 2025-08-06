@@ -1,5 +1,61 @@
 ---
 ---
+// Navigation Bar Styles
+.site-nav {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    ul {
+        display: flex;
+        gap: 2rem;
+        list-style: none;
+        margin: 0;
+        padding: 0;
+    }
+    li {
+        margin: 0;
+    }
+    a {
+        color: #fff;
+        text-decoration: none;
+        font-weight: 500;
+        font-size: 1rem;
+        padding: 0.5rem 0;
+        position: relative;
+        transition: color 0.2s;
+        &:hover,
+        &:focus {
+            color: #4f8cff;
+        }
+        &::after {
+            content: '';
+            display: block;
+            width: 0;
+            height: 2px;
+            background: #4f8cff;
+            transition: width 0.2s;
+            position: absolute;
+            left: 0;
+            bottom: -2px;
+        }
+        &:hover::after,
+        &:focus::after {
+            width: 100%;
+        }
+    }
+}
+
+// Footer Styles
+.site-footer {
+  margin-top: 3rem;
+  padding: 2rem 0 1rem 0;
+  background: var(--main-background-color);
+  border-top: 1px solid #23263a;
+  text-align: center;
+  color: #bfc7d5;
+  font-size: 0.95rem;
+  box-shadow: 0 -2px 16px 0 rgba(0,0,0,0.08);
+}
 
 @import "{{ site.theme }}";
 
