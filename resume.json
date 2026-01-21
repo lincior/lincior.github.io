@@ -1,18 +1,17 @@
 {
-  "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
   "basics": {
     "name": "Riccardo Lincetto",
     "label": "Computer Vision & Machine Learning Expert",
     "image": "",
-    "email": "riccardo.lincetto@gmail.com",
-    "phone": "",
+    "email": "riccardo.lincetto@lincior.com",
+    "phone": "+393480505093",
     "url": "https://lincior.github.io",
     "summary": "Expert in computer vision (classical, neuromorphic), robotics, deep learning, LLM agents. Motivated by challenging problems, committed to continuous learning, highly organized. Experienced in both team and independent work. Available as contractor or consultant.",
     "location": {
       "address": "",
-      "postalCode": "",
-      "city": "Vilnius",
-      "countryCode": "LT",
+      "postalCode": "20122",
+      "city": "Milan",
+      "countryCode": "IT",
       "region": ""
     },
     "profiles": [
@@ -20,6 +19,11 @@
         "network": "LinkedIn",
         "username": "lincior",
         "url": "https://www.linkedin.com/in/lincior"
+      },
+      {
+        "network": "GitHub",
+        "username": "lincior",
+        "url": "https://github.com/lincior"
       }
     ]
   },
@@ -28,8 +32,7 @@
       "name": "Freelancer",
       "position": "Independent Contractor",
       "url": "",
-      "startDate": "2022-02",
-      "endDate": "",
+      "startDate": "2023-12",
       "summary": "Visual defect detection from image segmentation (data pipeline, model training); object detection for drone warehouse applications (data synthesis, training, on-device deployment, c++ inference post-processor); design and on-premise deployment of LLM-based RAG system.",
       "highlights": [
         "Visual defect detection from image segmentation (data pipeline, model training)",
@@ -43,14 +46,13 @@
       "position": "Machine Learning Engineer",
       "url": "https://www.cgtrader.com",
       "startDate": "2022-02",
-      "endDate": "",
-      "summary": "Generative AI research for 3D (text-to-3d, image-to-3d) and integration into cgdream.ai; early-stage BE design and build of cgdream.ai; at-scale image classification and aesthetics ranking projects; custom deployment process of ML models (containers, custom registry, API).",
+      "endDate": "2024-11",
+      "summary": "Generative AI research for 3D models (text-to-3d, image-to-3d) and integration into cgdream.ai; early-stage BE design and build of cgdream.ai; at-scale image classification and aesthetics ranking projects; custom deployment process of ML models (containers, custom registry, API).",
       "highlights": [
-        "Generative AI research for 3D (text-to-3d, image-to-3d)",
-        "Integration into cgdream.ai",
-        "Early-stage BE design and build of cgdream.ai",
-        "At-scale image classification and aesthetics ranking projects",
-        "Custom deployment process of ML models (containers, custom registry, API)"
+        "Led research on generative AI for 3D models (image-to-3d) over 9 months, beating state-of-the-art results by 10% on standard benchmarks by exploiting curated datasets from company assets",
+        "Designed a text-to-image platform (https://cgdream.ai) from scratch, built a backend and launched in 3 months using scalable microservices architecture",
+        "Increased revenue by 100k+ USD over 6 months by training a 3D model scoring system for affecting the results ranking of cgtrader.com",
+        "Assisted the design of, built in 3 months and maintained a custom MLOps platform for a team of 5+ ML engineers",
       ],
       "location": "Vilnius, Lithuania"
     },
@@ -206,5 +208,9 @@
   ],
   "interests": [],
   "references": [],
-  "projects": []
+  "projects": [],
+  "meta": {
+    "version": "v1.0.0",
+    "canonical": "https://github.com/jsonresume/resume-schema/blob/v1.0.0/schema.json"
+  }
 }
