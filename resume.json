@@ -148,7 +148,10 @@
         "Optical Flow",
         "Object Detection",
         "Image Segmentation",
-        "Neural Style Transfer"
+        "Neural Style Transfer",
+        "Visual Defect Detection",
+        "Image Classification",
+        "Aesthetics Ranking"
       ]
     },
     {
@@ -162,7 +165,9 @@
         "LLM Agents",
         "RAG Systems",
         "Model Training",
-        "Model Deployment"
+        "Model Deployment",
+        "Data Augmentation",
+        "On-device Deployment"
       ]
     },
     {
@@ -186,17 +191,6 @@
         "Data Pipelines",
         "Containers",
         "Model Registry"
-      ]
-    },
-    {
-      "name": "Computer Vision Applications",
-      "level": "Expert",
-      "keywords": [
-        "Visual Defect Detection",
-        "Image Classification",
-        "Aesthetics Ranking",
-        "Data Augmentation",
-        "On-device Deployment"
       ]
     }
   ],
