@@ -1,0 +1,216 @@
+{
+  "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
+  "basics": {
+    "name": "Riccardo Lincetto",
+    "label": "Computer Vision & Machine Learning Expert",
+    "image": "",
+    "email": "riccardo.lincetto@gmail.com",
+    "phone": "",
+    "url": "https://lincior.github.io",
+    "summary": "Expert in computer vision (classical, neuromorphic), robotics, deep learning, LLM agents. Motivated by challenging problems, committed to continuous learning, highly organized. Experienced in both team and independent work. Available as contractor or consultant.",
+    "location": {
+      "address": "",
+      "postalCode": "",
+      "city": "Vilnius",
+      "countryCode": "LT",
+      "region": ""
+    },
+    "profiles": [
+      {
+        "network": "LinkedIn",
+        "username": "lincior",
+        "url": "https://www.linkedin.com/in/lincior"
+      }
+    ]
+  },
+  "work": [
+    {
+      "name": "Freelancer",
+      "position": "Independent Contractor",
+      "url": "",
+      "startDate": "2022-02",
+      "endDate": "",
+      "summary": "Visual defect detection from image segmentation (data pipeline, model training); object detection for drone warehouse applications (data synthesis, training, on-device deployment, c++ inference post-processor); design and on-premise deployment of LLM-based RAG system.",
+      "highlights": [
+        "Visual defect detection from image segmentation (data pipeline, model training)",
+        "Object detection for drone warehouse applications (data synthesis, training, on-device deployment, c++ inference post-processor)",
+        "Design and on-premise deployment of LLM-based RAG system"
+      ],
+      "location": "Remote"
+    },
+    {
+      "name": "CGTrader",
+      "position": "Machine Learning Engineer",
+      "url": "https://www.cgtrader.com",
+      "startDate": "2022-02",
+      "endDate": "",
+      "summary": "Generative AI research for 3D (text-to-3d, image-to-3d) and integration into cgdream.ai; early-stage BE design and build of cgdream.ai; at-scale image classification and aesthetics ranking projects; custom deployment process of ML models (containers, custom registry, API).",
+      "highlights": [
+        "Generative AI research for 3D (text-to-3d, image-to-3d)",
+        "Integration into cgdream.ai",
+        "Early-stage BE design and build of cgdream.ai",
+        "At-scale image classification and aesthetics ranking projects",
+        "Custom deployment process of ML models (containers, custom registry, API)"
+      ],
+      "location": "Vilnius, Lithuania"
+    },
+    {
+      "name": "Sportradar",
+      "position": "Computer Vision Engineer",
+      "url": "https://www.sportradar.com",
+      "startDate": "2021-10",
+      "endDate": "2021-12",
+      "summary": "Research on neural style transfer, from simulation to reality, and tests on data augmentation.",
+      "highlights": [
+        "Research on neural style transfer",
+        "Simulation to reality transfer",
+        "Data augmentation testing"
+      ],
+      "location": "Ljubljana, Slovenia"
+    },
+    {
+      "name": "Dronus",
+      "position": "Computer Vision Engineer",
+      "url": "",
+      "startDate": "2019-09",
+      "endDate": "2021-09",
+      "summary": "Research and prototyping of computer vision and learning-based algorithms for drones navigation and applications. Work on optical flow and object detection on resource constrained settings. Sensors research for system design. Mechanical parts control on Arduino.",
+      "highlights": [
+        "Research and prototyping of computer vision and learning-based algorithms for drones navigation",
+        "Optical flow and object detection on resource constrained settings",
+        "Sensors research for system design",
+        "Mechanical parts control on Arduino"
+      ],
+      "location": "Trieste, Italy"
+    },
+    {
+      "name": "Akka",
+      "position": "Tech Project Consultant",
+      "url": "https://www.akka-technologies.com",
+      "startDate": "2019-04",
+      "endDate": "2019-08",
+      "summary": "Functional owning (concept design and testing) of a fleet management service, namely driving efficiency report, for a big car manufacturing company.",
+      "highlights": [
+        "Concept design and testing of fleet management service",
+        "Driving efficiency report for car manufacturing company"
+      ],
+      "location": "Genève, Switzerland / Braunschweig, Germany"
+    },
+    {
+      "name": "Sony",
+      "position": "Computational Imaging Intern",
+      "url": "https://www.sony.com",
+      "startDate": "2018-09",
+      "endDate": "2019-03",
+      "summary": "Internship and Master Thesis on multispectral data acquisition with event-based cameras. Use of events obtained from a spectral filter tuning to reconstruct the spectrum of the scene. Sensor tests and benchmark evaluation with simple reconstruction methods.",
+      "highlights": [
+        "Master Thesis on multispectral data acquisition with event-based cameras",
+        "Spectral filter tuning for scene spectrum reconstruction",
+        "Sensor tests and benchmark evaluation"
+      ],
+      "location": "EuTEC, Stuttgart, Germany"
+    }
+  ],
+  "volunteer": [],
+  "education": [
+    {
+      "institution": "University of Padua (UNIPD)",
+      "url": "https://www.unipd.it",
+      "area": "Telecommunications Engineering",
+      "studyType": "Master's degree",
+      "startDate": "2016-10",
+      "endDate": "2019-04",
+      "score": "110 cum Laude / 110",
+      "courses": []
+    },
+    {
+      "institution": "University of Padua (UNIPD)",
+      "url": "https://www.unipd.it",
+      "area": "Information Engineering",
+      "studyType": "Bachelor's degree",
+      "startDate": "2013-10",
+      "endDate": "2016-11",
+      "score": "98 / 110",
+      "courses": []
+    }
+  ],
+  "awards": [],
+  "certificates": [],
+  "publications": [],
+  "skills": [
+    {
+      "name": "Computer Vision",
+      "level": "Expert",
+      "keywords": [
+        "Classical Computer Vision",
+        "Neuromorphic Vision",
+        "Event-based Cameras",
+        "Optical Flow",
+        "Object Detection",
+        "Image Segmentation",
+        "Neural Style Transfer"
+      ]
+    },
+    {
+      "name": "Machine Learning & AI",
+      "level": "Expert",
+      "keywords": [
+        "Deep Learning",
+        "Generative AI",
+        "Text-to-3D",
+        "Image-to-3D",
+        "LLM Agents",
+        "RAG Systems",
+        "Model Training",
+        "Model Deployment"
+      ]
+    },
+    {
+      "name": "Robotics",
+      "level": "Advanced",
+      "keywords": [
+        "Drone Navigation",
+        "Sensor Research",
+        "Arduino",
+        "Resource Constrained Systems"
+      ]
+    },
+    {
+      "name": "Software Engineering",
+      "level": "Advanced",
+      "keywords": [
+        "Backend Development",
+        "C++",
+        "Python",
+        "API Development",
+        "Data Pipelines",
+        "Containers",
+        "Model Registry"
+      ]
+    },
+    {
+      "name": "Computer Vision Applications",
+      "level": "Expert",
+      "keywords": [
+        "Visual Defect Detection",
+        "Image Classification",
+        "Aesthetics Ranking",
+        "Data Augmentation",
+        "On-device Deployment"
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "language": "Italian",
+      "fluency": "Native speaker"
+    },
+    {
+      "language": "English",
+      "fluency": "Professional working proficiency"
+    }
+  ],
+  "interests": [],
+  "references": [],
+  "projects": []
+}
