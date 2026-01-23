@@ -1,4 +1,5 @@
 {
+  "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
   "basics": {
     "name": "Riccardo Lincetto",
     "label": "Computer Vision & Machine Learning Expert",
@@ -29,34 +30,42 @@
   },
   "work": [
     {
-      "name": "Freelancer",
-      "position": "Independent Contractor",
+      "name": "Self-Employed",
+      "location": "Milano, Italy",
+      "description": "Computer Vision, Machine Learning and AI consultant and contractor",
+      "position": "Freelancer",
       "url": "",
       "startDate": "2023-12",
-      "summary": "Working as an independent contractor on computer vision, machine learning and LLM-based projects for various clients.",
+      "endDate": "present",
+      "summary": "Offering consulting services and working as an independent contractor on the state-of-the-art in computer vision, machine learning, and artificial intelligence. Exploring LLM-based agents and their applications.",
       "highlights": [
-        "Visual defect detection from image segmentation (data pipeline, model training)",
-        "Design and on-premise deployment of LLM-based RAG system"
-      ],
-      "location": "Remote"
+        "Designed and developed a shop-the-look platform for an innovative advertising startup, including frontend, backend, and ML models for recommendations.",
+        "Fixed an event-based camera tracking system by separating tracking from identification tasks, and introducing a inter-camera handoff mechanism.",
+        "Decreased by 90% the training time of an image segmentation model for visual defect detection by designing an optimized data pipeline and a distributed training loop.",
+        "Design, developed and deployed in 3 weeks an LLM-based agent to act as an assistant for a platform for creators.",
+        "Delivered a UI-enabled LLM-based platform for lead validation, including frontend and backend."
+      ]
     },
     {
       "name": "CGTrader",
+      "location": "Vilnius, Lithuania",
+      "description": "Leader in 3D content marketplace and on-demand 3D model generation",
       "position": "Computer Vision and Machine Learning Engineer",
       "url": "https://www.cgtrader.com",
       "startDate": "2022-02",
       "endDate": "2024-11",
-      "summary": "Researches and developed computer vision services (both discriminative and generative) for a 3D model marketplace and an image generation platform, managed machine learning infrastructure",
+      "summary": "Researched and developed computer vision services (both discriminative and generative) for a 3D model marketplace and an image generation platform; managed machine learning infrastructure.",
       "highlights": [
         "Led research on generative AI for 3D models (image-to-3d) over 9 months, beating state-of-the-art results by 10% on standard benchmarks by exploiting curated datasets from company assets",
         "Designed from scratch, built a backend and launched in 3 months a text-to-image platform (https://cgdream.ai), using scalable microservices architecture",
         "Increased revenue by 100k+ USD over 6 months for a 3D models marketplace (https://cgtrader.com) by training a quality-focused 3D-model regression system affecting the ranking of search results",
-        "Built and maintained a custom internal MLOps platform for a team of 5+ ML engineers",
-      ],
-      "location": "Vilnius, Lithuania"
+        "Built and maintained a custom internal MLOps platform for a team of 5+ ML engineers"
+      ]
     },
     {
       "name": "Sportradar",
+      "location": "Ljubljana, Slovenia",
+      "description": "Leader in sports data analysis.",
       "position": "Computer Vision Engineer",
       "url": "https://www.sportradar.com",
       "startDate": "2021-10",
@@ -64,11 +73,12 @@
       "summary": "Worked in the team dedicated to automating sports video analysis from broadcast TV.",
       "highlights": [
         "Researched neural style transfer for enabling training models on synthetic data while bridging the domain gap with real data",
-      ],
-      "location": "Ljubljana, Slovenia"
+      ]
     },
     {
       "name": "Dronus",
+      "location": "Trieste, Italy",
+      "description": "Startup building autonomous drone-in-a-box systems.",
       "position": "Computer Vision Engineer",
       "url": "https://dronus.com/",
       "startDate": "2019-09",
@@ -83,11 +93,12 @@
         "Developed the docking station hardware control on an Arduino board.",
         "Developed and maintained the codebase for the ground control station proxy (MAVlink)",
         "Research on SLAM algorithms for drone navigation"
-      ],
-      "location": "Trieste, Italy"
+      ]
     },
     {
       "name": "Akka",
+      "location": "Genève, Switzerland / Braunschweig, Germany",
+      "description": "Consulting company for engineering and technology services in automotive and aerospace.",
       "position": "Consultant",
       "url": "https://www.akka-technologies.com",
       "startDate": "2019-04",
@@ -96,11 +107,12 @@
       "highlights": [
         "Soft-skills training for consultants",
         "Worked as a functional owner of a fleet management service, namely driving efficiency report."
-      ],
-      "location": "Genève, Switzerland / Braunschweig, Germany"
+      ]
     },
     {
       "name": "Sony",
+      "location": "Stuttgart, Germany",
+      "description": "Internship at EuTEC (European Technology Center) in the Computational Imaging Group.",
       "position": "Computational Imaging Intern",
       "url": "https://www.sony.com",
       "startDate": "2018-09",
@@ -111,8 +123,7 @@
         "Characterized the noise patterns at different illumination levels.",
         "Synchronization with an electronically-controlled spectral filter for spectral imaging.",
         "Researched video reconstruction from event data.",
-      ],
-      "location": "EuTEC, Stuttgart, Germany"
+      ]
     }
   ],
   "education": [
@@ -120,77 +131,83 @@
       "institution": "University of Padua (UNIPD)",
       "url": "https://www.unipd.it",
       "area": "Telecommunications Engineering",
-      "studyType": "Master's degree",
+      "studyType": "Master",
       "startDate": "2016-10",
       "endDate": "2019-04",
       "score": "110 cum Laude / 110",
-      "courses": []
+      "courses": [
+        "3D augmented reality",
+        "Antenne e propagazione wireless",
+        "Big data computing",
+        "Computer vision",
+        "Fibre ottiche e propagazione guidata",
+        "Game theory",
+        "Human data analytics",
+        "Machine learning",
+        "Network modeling",
+        "Network science",
+        "Neurorehabilitation and brain-computer interfaces",
+        "Telecommunications networks",
+      ]
     },
     {
       "institution": "University of Padua (UNIPD)",
       "url": "https://www.unipd.it",
-      "area": "Information Engineering",
-      "studyType": "Bachelor's degree",
+      "area": "Telecommunications Engineering",
+      "studyType": "Bachelor",
       "startDate": "2013-10",
       "endDate": "2016-11",
       "score": "98 / 110",
-      "courses": []
+      "courses": [
+        "Analisi dei dati",
+        "Analisi matematica 1",
+        "Analisi matematica 2",
+        "Architettura degli elaboratori",
+        "Controlli automatici",
+        "Dati e algoritmi 1",
+        "Elettronica digitale",
+        "Elettronica",
+        "Elettrotecnica",
+        "Fisica generale 1",
+        "Fisica generale 2",
+        "Fondamenti di informatica",
+        "Informatica teorica",
+        "Laboratorio di automatica",
+        "Lingua inglese B2",
+        "Project management",
+        "Segnali e sistemi",
+        "Sistemi e modelli",
+        "Telecomunicazioni"
+      ]
     }
   ],
   "skills": [
     {
-      "name": "Computer Vision",
-      "level": "Expert",
+      "name": "Development",
+      "level": "Master",
       "keywords": [
-        "Classical Computer Vision",
-        "Neuromorphic Vision",
-        "Event-based Cameras",
-        "Optical Flow",
-        "Object Detection",
-        "Image Segmentation",
-        "Neural Style Transfer",
-        "Visual Defect Detection",
-        "Image Classification",
-        "Aesthetics Ranking"
-      ]
-    },
-    {
-      "name": "Machine Learning & AI",
-      "level": "Expert",
-      "keywords": [
-        "Deep Learning",
-        "Generative AI",
-        "Text-to-3D",
-        "Image-to-3D",
-        "LLM Agents",
-        "RAG Systems",
-        "Model Training",
-        "Model Deployment",
-        "Data Augmentation",
-        "On-device Deployment"
-      ]
-    },
-    {
-      "name": "Robotics",
-      "level": "Advanced",
-      "keywords": [
-        "Drone Navigation",
-        "Sensor Research",
-        "Arduino",
-        "Resource Constrained Systems"
-      ]
-    },
-    {
-      "name": "Software Engineering",
-      "level": "Advanced",
-      "keywords": [
-        "Backend Development",
-        "C++",
         "Python",
-        "API Development",
-        "Data Pipelines",
-        "Containers",
-        "Model Registry"
+        "C++"
+      ]
+    },
+    {
+      "name": "Web Development",
+      "level": "Master",
+      "keywords": [
+        "HTML",
+        "CSS",
+        "Javascript"
+      ]
+    },
+    {
+      "name": "Cloud Platforms",
+      "level": "Intermediate",
+      "keywords": [
+        "AWS",
+        "GCP",
+        "RunPod",
+        "Hetzner",
+        "Vercel"
       ]
     }
   ],
@@ -201,11 +218,34 @@
     },
     {
       "language": "English",
-      "fluency": "Professional working proficiency"
+      "fluency": "Native speaker"
+    },
+    {
+      "language": "German",
+      "fluency": "Basic proficiency"
+    }
+  ],
+  "interests": [
+    {
+      "name": "Volleyball",
+      "keywords": [
+        "Team player"
+      ]
+    },
+    {
+      "name": "Robotics",
+      "keywords": [
+        "Autonomous drones",
+        "Embedded systems"
+      ]
+    },
+    {
+      "name": "Astronomy"
     }
   ],
   "meta": {
+    "canonical": "https://raw.githubusercontent.com/jsonresume/resume-schema/master/sample.resume.json",
     "version": "v1.0.0",
-    "canonical": "https://github.com/jsonresume/resume-schema/blob/v1.0.0/schema.json"
+    "lastModified": "2017-12-24T15:53:00"
   }
 }
