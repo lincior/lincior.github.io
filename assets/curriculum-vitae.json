@@ -2,12 +2,12 @@
   "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
   "basics": {
     "name": "Riccardo Lincetto",
-    "label": "Computer Vision & Machine Learning Expert",
+    "label": "Computer Vision & Machine Learning Engineer",
     "image": "",
     "email": "riccardo.lincetto@lincior.com",
     "phone": "",
     "url": "https://lincior.github.io",
-    "summary": "Expert in computer vision (classical, neuromorphic), robotics, deep learning, LLM agents. Motivated by challenging problems, committed to continuous learning, highly organized. Experienced in both team and independent work.",
+    "summary": "Specialized in Computer Vision and Deep Learning. Experienced on multimodal sensor fusion, generative AI, scalable data pipelines, LLM agents, handling complex asynchronous sensor data (event cameras). Proven track record in optimizing training loops and deploying models from research to production. Motivated by challenging problems, committed to continuous learning, highly organized. Experienced in both team and independent work.",
     "location": {
       "address": "",
       "postalCode": "20122",
@@ -39,9 +39,9 @@
       "endDate": "present",
       "summary": "Offering consulting services and working as an independent contractor on the state-of-the-art in computer vision, machine learning, and artificial intelligence. Exploring LLM-based agents and their applications.",
       "highlights": [
-        "Designed and developed a shop-the-look platform for an innovative advertising startup, including frontend, backend, and ML models for recommendations.",
-        "Fixed an event-based camera tracking system by separating tracking from identification tasks, and introducing a inter-camera handoff mechanism.",
-        "Decreased by 90% the training time of an image segmentation model for visual defect detection by designing an optimized data pipeline and a distributed training loop.",
+        "Architected an end-to-end 'shop-the-look' Ad Tech platform, building a visual recommender system that matches user interactions with product catalogs, covering full-stack implementation (frontend, backend, and ML deployment).",
+        "Developed a multi-camera sensor fusion system using Kalman filters to aggregate asynchronous tracking data from overlapping event sensors, enabling continuous spatial tracking.",
+        "Optimized data pipelines and distributed training loops, reducing segmentation model training time by 80% on large-scale datasets.",
         "Design, developed and deployed in 3 weeks an LLM-based agent to act as an assistant for a platform for creators.",
         "Delivered a UI-enabled LLM-based platform for lead validation, including frontend and backend."
       ]
@@ -56,8 +56,8 @@
       "endDate": "2024-11",
       "summary": "Researched and developed computer vision services (both discriminative and generative) for a 3D model marketplace and an image generation platform; managed machine learning infrastructure.",
       "highlights": [
-        "Led research on generative AI for 3D models (image-to-3d) over 9 months, beating state-of-the-art results by 10% on standard benchmarks by exploiting curated datasets from company assets",
-        "Designed from scratch, built a backend and launched in 3 months a text-to-image platform (https://cgdream.ai), using scalable microservices architecture",
+        "Led research on Generative AI (image-to-3d), exceeding SOTA benchmarks by 10% through novel curriculum learning and curated dataset management.",
+        "Architected scalable microservices for a text-to-image platform (cgdream.ai), handling high-throughput inference requests.",
         "Increased revenue by 100k+ USD over 6 months for a 3D models marketplace (https://cgtrader.com) by training a quality-focused 3D-model regression system affecting the ranking of search results",
         "Built and maintained a custom internal MLOps platform for a team of 5+ ML engineers"
       ]
@@ -72,7 +72,7 @@
       "endDate": "2021-12",
       "summary": "Worked in the team dedicated to automating sports video analysis from broadcast TV.",
       "highlights": [
-        "Researched neural style transfer for enabling training models on synthetic data while bridging the domain gap with real data",
+        "Researched neural style transfer to bridge the domain gap between synthetic and real-world broadcast data, improving label efficiency.",
       ]
     },
     {
@@ -85,8 +85,8 @@
       "endDate": "2021-09",
       "summary": "Joined the startup as the 6th employee. Worked on computer vision for drones navigation and applications. Extended my skills to full-stack development and embedded systems.",
       "highlights": [
-        "Trained, quantized and deployed a neural network (yolo) for object detection on a qualcomm board for warehouse applications (data synthesis, training, on-device deployment, c++ inference post-processor)",
-        "Designed the system architecture for autonomous drone navigation, by leveraging px4",
+        "Deployed quantized YOLO networks on Qualcomm embedded hardware for real-time inference.",
+        "Designed system architecture for autonomous navigation, integrating multimodal sensors (RGB cameras, event-cameras, ToF, radars).",
         "Tested integration of sensors (cameras, event-cameras, ToF cameras, radars) for drone navigation",
         "Trained and deployed to the docking station embedded hardware (Jetson) a neural network for drone detection to guide the docking procedure",
         "Researched neural network architectures for optical flow estimation on resource constrained settings",
