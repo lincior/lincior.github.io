@@ -171,14 +171,32 @@
   ],
   "skills": [
     {
-      "name": "AI & Machine Learning",
+      "name": "Deep learning",
       "level": "Master",
       "keywords": [
-        "Computer Vision",
-        "Deep Learning",
-        "LLM Applications",
+        "PyTorch",
+        "Hugging Face",
+        "Neural Networks",
+        "Transformers",
         "Generative AI",
-        "Multimodal Sensor Fusion"
+        "JEPA"
+      ]
+    },
+    {
+      "name": "Computer Vision",
+      "level": "Master",
+      "keywords": [
+        "Object Detection",
+        "Image Segmentation",
+        "Optical Flow Estimation",
+        "Neural Rendering",
+        "Sensor Fusion",
+        "Event-based Cameras",
+        "Spectral Imaging",
+        "3D Reconstruction",
+        "Visual Recommender Systems",
+        "SLAM",
+        "Visual Odometry"
       ]
     },
     {
@@ -187,19 +205,7 @@
       "keywords": [
         "Python",
         "C++",
-        "JavaScript",
-        "System Architecture",
-        "Backend Development"
-      ]
-    },
-    {
-      "name": "Full-Stack Development",
-      "level": "Master",
-      "keywords": [
-        "HTML",
-        "CSS",
-        "Frontend Development",
-        "API Integration"
+        "JavaScript"
       ]
     },
     {
@@ -211,8 +217,7 @@
         "RunPod",
         "Hetzner",
         "Vercel",
-        "Microservices",
-        "Data Pipelines"
+        "Supabase"
       ]
     }
   ],
