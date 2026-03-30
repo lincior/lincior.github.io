@@ -232,16 +232,10 @@
   ],
   "interests": [
     {
-      "name": "Volleyball",
+      "name": "Sports",
       "keywords": [
+        "Volleyball",
         "Team player"
-      ]
-    },
-    {
-      "name": "Robotics",
-      "keywords": [
-        "Autonomous drones",
-        "Embedded systems"
       ]
     },
     {
