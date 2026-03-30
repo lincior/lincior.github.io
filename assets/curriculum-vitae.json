@@ -2,18 +2,16 @@
   "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
   "basics": {
     "name": "Riccardo Lincetto",
-    "label": "Computer Vision & Machine Learning Engineer",
+    "label": "Computer Vision & Deep Learning Engineer",
     "image": "",
     "email": "riccardo.lincetto@lincior.com",
-    "phone": "",
     "url": "https://lincior.github.io",
-    "summary": "Specialized in Computer Vision and Deep Learning. Experienced on multimodal sensor fusion, generative AI, scalable data pipelines, LLM agents, handling complex asynchronous sensor data (event cameras). Proven track record in optimizing training loops and deploying models from research to production. Motivated by challenging problems, committed to continuous learning, highly organized. Experienced in both team and independent work.",
+    "summary": "Engineer working across computer vision, deep learning, state-of-the-art AI, LLM applications, and full-stack software development. I own projects end-to-end, from research to development and production, combining broad technical range with pragmatic execution. Good fit for startup and consulting environments, and for deep/mid-tech companies.",
     "location": {
-      "address": "",
       "postalCode": "20122",
       "city": "Milan",
       "countryCode": "IT",
-      "region": ""
+      "region": "North Italy"
     },
     "profiles": [
       {
@@ -31,19 +29,18 @@
   "work": [
     {
       "name": "Self-Employed",
-      "location": "Milano, Italy",
-      "description": "Computer Vision, Machine Learning and AI consultant and contractor",
-      "position": "Freelancer",
-      "url": "",
+      "location": "Remote, Italy",
+      "description": "Independent consultant and contractor in Computer Vision, Deep Learning, and AI",
+      "position": "Full-stack Computer Vision and AI Engineer",
+      "url": "https://lincior.github.io",
       "startDate": "2023-12",
-      "endDate": "present",
-      "summary": "Offering consulting services and working as an independent contractor on the state-of-the-art in computer vision, machine learning, and artificial intelligence. Exploring LLM-based agents and their applications.",
+      "summary": "Deliver end-to-end consulting projects across computer vision, deep learning, and LLM applications.",
       "highlights": [
-        "Architected an end-to-end 'shop-the-look' Ad Tech platform, building a visual recommender system that matches user interactions with product catalogs, covering full-stack implementation (frontend, backend, and ML deployment).",
-        "Developed a multi-camera sensor fusion system using Kalman filters to aggregate asynchronous tracking data from overlapping event sensors, enabling continuous spatial tracking.",
+        "Researched, tested and deployed computer vision services for a shop-the-look AdTech platform, including a visual recommender system linking user interactions to product catalogs.",
+        "Developed a multi-camera sensor fusion system using Kalman filters to aggregate asynchronous tracking data from overlapping event sensors, enabling continuous planar tracking.",
         "Optimized data pipelines and distributed training loops, reducing segmentation model training time by 80% on large-scale datasets.",
-        "Design, developed and deployed in 3 weeks an LLM-based agent to act as an assistant for a platform for creators.",
-        "Delivered a UI-enabled LLM-based platform for lead validation, including frontend and backend."
+        "Designed, developed, and deployed in 3 weeks an LLM-based assistant for a creator platform.",
+        "Delivered a UI-enabled LLM-based lead-validation platform, including frontend and backend."
       ]
     },
     {
@@ -70,10 +67,7 @@
       "url": "https://www.sportradar.com",
       "startDate": "2021-10",
       "endDate": "2021-12",
-      "summary": "Worked in the team dedicated to automating sports video analysis from broadcast TV.",
-      "highlights": [
-        "Researched neural style transfer to bridge the domain gap between synthetic and real-world broadcast data, improving label efficiency."
-      ]
+      "summary": "Worked in the team dedicated to automating sports video analysis from broadcast TV. Researched neural style transfer to bridge the domain gap between synthetic and real-world broadcast data, improving label efficiency."
     },
     {
       "name": "Dronus",
@@ -97,31 +91,25 @@
     },
     {
       "name": "Akka",
-      "location": "Genève, Switzerland / Braunschweig, Germany",
+      "location": "Geneva, Switzerland / Braunschweig, Germany",
       "description": "Consulting company for engineering and technology services in automotive and aerospace.",
       "position": "Consultant",
       "url": "https://www.akka-technologies.com",
       "startDate": "2019-04",
       "endDate": "2019-08",
-      "summary": "Went through formation for consultants and worked with IT teams of a big car manufacturing company.",
-      "highlights": [
-        "Soft-skills training for consultants",
-        "Worked as a functional owner of a fleet management service, namely driving efficiency report."
-      ]
+      "summary": "Worked as a functional owner of a fleet management service for a major automotive company. The service was responsible for collecting and analyzing data from the fleet of vehicles to provide insights on efficiency and performance."
     },
     {
       "name": "Sony",
       "location": "Stuttgart, Germany",
-      "description": "Internship at EuTEC (European Technology Center) in the Computational Imaging Group.",
+      "description": "Computational Imaging Research Group at EuTEC (European Technology Center)",
       "position": "Computational Imaging Intern",
       "url": "https://www.sony.com",
       "startDate": "2018-09",
       "endDate": "2019-03",
-      "summary": "Internship and Master Thesis on spectral imaging with event-based cameras.",
+      "summary": "Research on the application of event-based cameras to spectral imaging problems.",
       "highlights": [
-        "Tested and benchmarked different event-based sensors.",
-        "Characterized the noise patterns at different illumination levels.",
-        "Synchronization with an electronically-controlled spectral filter for spectral imaging.",
+        "Tested and benchmarked different event-based sensors (DVS, DAVIS).",
         "Researched video reconstruction from event data."
       ]
     }
@@ -183,31 +171,48 @@
   ],
   "skills": [
     {
-      "name": "Development",
+      "name": "AI & Machine Learning",
       "level": "Master",
       "keywords": [
-        "Python",
-        "C++"
+        "Computer Vision",
+        "Deep Learning",
+        "LLM Applications",
+        "Generative AI",
+        "Multimodal Sensor Fusion"
       ]
     },
     {
-      "name": "Web Development",
+      "name": "Software Engineering",
+      "level": "Master",
+      "keywords": [
+        "Python",
+        "C++",
+        "JavaScript",
+        "System Architecture",
+        "Backend Development"
+      ]
+    },
+    {
+      "name": "Full-Stack Development",
       "level": "Master",
       "keywords": [
         "HTML",
         "CSS",
-        "Javascript"
+        "Frontend Development",
+        "API Integration"
       ]
     },
     {
-      "name": "Cloud Platforms",
+      "name": "Cloud & Infrastructure",
       "level": "Intermediate",
       "keywords": [
         "AWS",
         "GCP",
         "RunPod",
         "Hetzner",
-        "Vercel"
+        "Vercel",
+        "Microservices",
+        "Data Pipelines"
       ]
     }
   ],
