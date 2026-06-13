@@ -28,6 +28,15 @@
   },
   "work": [
     {
+      "name": "Delart",
+      "location": "Milan, Italy",
+      "description": "Engineering services (R&D) for Meta.",
+      "position": "Full-stack Engineer",
+      "url": "https://www.delartech.com",
+      "startDate": "2026-04",
+      "summary": "Testing of Meta apps QoE, and automation solutions for the testing process using VLMs."
+    },
+    {
       "name": "Self-Employed",
       "location": "Remote, Italy",
       "description": "Independent consultant and contractor in Computer Vision, Deep Learning, and AI",
