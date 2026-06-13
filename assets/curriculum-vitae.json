@@ -1,0 +1,259 @@
+{
+  "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
+  "basics": {
+    "name": "Riccardo Lincetto",
+    "label": "Computer Vision & Deep Learning Engineer",
+    "image": "https://lincior.github.io/assets/profile.jpeg",
+    "email": "riccardo.lincetto@lincior.com",
+    "url": "https://lincior.github.io",
+    "summary": "Engineer working across computer vision, deep learning, state-of-the-art AI, LLM applications, and full-stack software development. I own projects end-to-end, from research to development and production, combining broad technical range with pragmatic execution. Good fit for startup and consulting environments, and for deep/mid-tech companies.",
+    "location": {
+      "postalCode": "20122",
+      "city": "Milan",
+      "countryCode": "IT",
+      "region": "North Italy"
+    },
+    "profiles": [
+      {
+        "network": "LinkedIn",
+        "username": "lincior",
+        "url": "https://www.linkedin.com/in/lincior"
+      },
+      {
+        "network": "GitHub",
+        "username": "lincior",
+        "url": "https://github.com/lincior"
+      }
+    ]
+  },
+  "work": [
+    {
+      "name": "Delart",
+      "location": "Milan, Italy",
+      "description": "Engineering services (R&D) for Meta.",
+      "position": "Full-stack Engineer",
+      "url": "https://www.delartech.com",
+      "startDate": "2026-04",
+      "summary": "Testing of Meta apps QoE, and automation solutions for the testing process using VLMs."
+    },
+    {
+      "name": "Self-Employed",
+      "location": "Remote, Italy",
+      "description": "Independent consultant and contractor in Computer Vision, Deep Learning, and AI",
+      "position": "Full-stack Computer Vision and AI Engineer",
+      "url": "https://lincior.github.io",
+      "startDate": "2023-12",
+      "summary": "Deliver end-to-end consulting projects across computer vision, deep learning, and LLM applications.",
+      "highlights": [
+        "Researched, tested and deployed computer vision services for a shop-the-look AdTech platform, including a visual recommender system linking user interactions to product catalogs.",
+        "Developed a multi-camera sensor fusion system using Kalman filters to aggregate asynchronous tracking data from overlapping event sensors, enabling continuous planar tracking.",
+        "Optimized data pipelines and distributed training loops, reducing segmentation model training time by 80% on large-scale datasets.",
+        "Designed, developed, and deployed in 3 weeks an LLM-based assistant for a creator platform.",
+        "Delivered a UI-enabled LLM-based lead-validation platform, including frontend and backend."
+      ]
+    },
+    {
+      "name": "CGTrader",
+      "location": "Vilnius, Lithuania",
+      "description": "Leader in 3D content marketplace and on-demand 3D model generation",
+      "position": "Computer Vision and Machine Learning Engineer",
+      "url": "https://www.cgtrader.com",
+      "startDate": "2022-02",
+      "endDate": "2024-11",
+      "summary": "Researched and developed computer vision services (both discriminative and generative) for a 3D model marketplace and an image generation platform; managed machine learning infrastructure.",
+      "highlights": [
+        "Led research on Generative AI (image-to-3d), exceeding SOTA benchmarks by 10% through novel curriculum learning and curated dataset management.",
+        "Architected scalable microservices for a text-to-image platform (cgdream.ai), handling high-throughput inference requests.",
+        "Increased revenue by 100k+ USD over 6 months for a 3D models marketplace (https://cgtrader.com) by training a quality-focused 3D-model regression system affecting the ranking of search results",
+        "Built and maintained a custom internal MLOps platform for a team of 5+ ML engineers"
+      ]
+    },
+    {
+      "name": "Sportradar",
+      "location": "Ljubljana, Slovenia",
+      "description": "Leader in sports data analysis.",
+      "position": "Computer Vision Engineer",
+      "url": "https://www.sportradar.com",
+      "startDate": "2021-10",
+      "endDate": "2021-12",
+      "summary": "Worked in the team dedicated to automating sports video analysis from broadcast TV. Researched neural style transfer to bridge the domain gap between synthetic and real-world broadcast data, improving label efficiency."
+    },
+    {
+      "name": "Dronus",
+      "location": "Trieste, Italy",
+      "description": "Startup building autonomous drone-in-a-box systems.",
+      "position": "Computer Vision Engineer",
+      "url": "https://dronus.com/",
+      "startDate": "2019-09",
+      "endDate": "2021-09",
+      "summary": "Joined the startup as the 6th employee. Worked on computer vision for drones navigation and applications. Extended my skills to full-stack development and embedded systems.",
+      "highlights": [
+        "Deployed quantized YOLO networks on Qualcomm embedded hardware for real-time inference.",
+        "Designed system architecture for autonomous navigation, integrating multimodal sensors (RGB cameras, event-cameras, ToF, radars).",
+        "Tested integration of sensors (cameras, event-cameras, ToF cameras, radars) for drone navigation",
+        "Trained and deployed to the docking station embedded hardware (Jetson) a neural network for drone detection to guide the docking procedure",
+        "Researched neural network architectures for optical flow estimation on resource constrained settings",
+        "Developed the docking station hardware control on an Arduino board.",
+        "Developed and maintained the codebase for the ground control station proxy (MAVlink)",
+        "Research on SLAM algorithms for drone navigation"
+      ]
+    },
+    {
+      "name": "Akka",
+      "location": "Geneva, Switzerland / Braunschweig, Germany",
+      "description": "Consulting company for engineering and technology services in automotive and aerospace.",
+      "position": "Consultant",
+      "url": "https://www.akka-technologies.com",
+      "startDate": "2019-04",
+      "endDate": "2019-08",
+      "summary": "Worked as a functional owner of a fleet management service for a major automotive company. The service was responsible for collecting and analyzing data from the fleet of vehicles to provide insights on efficiency and performance."
+    },
+    {
+      "name": "Sony",
+      "location": "Stuttgart, Germany",
+      "description": "Computational Imaging Research Group at EuTEC (European Technology Center)",
+      "position": "Computational Imaging Intern",
+      "url": "https://www.sony.com",
+      "startDate": "2018-09",
+      "endDate": "2019-03",
+      "summary": "Research on the application of event-based cameras to spectral imaging problems.",
+      "highlights": [
+        "Tested and benchmarked different event-based sensors (DVS, DAVIS).",
+        "Researched video reconstruction from event data."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "University of Padua (UNIPD)",
+      "url": "https://www.unipd.it",
+      "area": "Telecommunications Engineering",
+      "studyType": "Master",
+      "startDate": "2016-10",
+      "endDate": "2019-04",
+      "score": "110 cum Laude / 110",
+      "courses": [
+        "3D augmented reality",
+        "Antenne e propagazione wireless",
+        "Big data computing",
+        "Computer vision",
+        "Fibre ottiche e propagazione guidata",
+        "Game theory",
+        "Human data analytics",
+        "Machine learning",
+        "Network modeling",
+        "Network science",
+        "Neurorehabilitation and brain-computer interfaces",
+        "Telecommunications networks"
+      ]
+    },
+    {
+      "institution": "University of Padua (UNIPD)",
+      "url": "https://www.unipd.it",
+      "area": "Telecommunications Engineering",
+      "studyType": "Bachelor",
+      "startDate": "2013-10",
+      "endDate": "2016-11",
+      "score": "98 / 110",
+      "courses": [
+        "Analisi dei dati",
+        "Analisi matematica 1",
+        "Analisi matematica 2",
+        "Architettura degli elaboratori",
+        "Controlli automatici",
+        "Dati e algoritmi 1",
+        "Elettronica digitale",
+        "Elettronica",
+        "Elettrotecnica",
+        "Fisica generale 1",
+        "Fisica generale 2",
+        "Fondamenti di informatica",
+        "Informatica teorica",
+        "Laboratorio di automatica",
+        "Lingua inglese B2",
+        "Project management",
+        "Segnali e sistemi",
+        "Sistemi e modelli",
+        "Telecomunicazioni"
+      ]
+    }
+  ],
+  "skills": [
+    {
+      "name": "Deep learning",
+      "level": "Master",
+      "keywords": [
+        "PyTorch",
+        "Hugging Face",
+        "Neural Networks",
+        "Transformers",
+        "Generative AI",
+        "JEPA"
+      ]
+    },
+    {
+      "name": "Computer Vision",
+      "level": "Master",
+      "keywords": [
+        "Object Detection",
+        "Image Segmentation",
+        "Optical Flow Estimation",
+        "Neural Rendering",
+        "Sensor Fusion",
+        "Event-based Cameras",
+        "Spectral Imaging",
+        "3D Reconstruction",
+        "Visual Recommender Systems",
+        "SLAM",
+        "Visual Odometry"
+      ]
+    },
+    {
+      "name": "Software Engineering",
+      "level": "Master",
+      "keywords": [
+        "Python",
+        "C++",
+        "JavaScript"
+      ]
+    },
+    {
+      "name": "Cloud & Infrastructure",
+      "level": "Intermediate",
+      "keywords": [
+        "AWS",
+        "GCP",
+        "RunPod",
+        "Hetzner",
+        "Vercel",
+        "Supabase"
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "language": "Italian",
+      "fluency": "Mother tongue"
+    },
+    {
+      "language": "English",
+      "fluency": "C1/C2"
+    },
+    {
+      "language": "German",
+      "fluency": "A2"
+    }
+  ],
+  "interests": [
+    {
+      "name": "Sports",
+      "keywords": [
+        "Volleyball",
+        "Team player"
+      ]
+    },
+    {
+      "name": "Astronomy"
+    }
+  ]
+}
